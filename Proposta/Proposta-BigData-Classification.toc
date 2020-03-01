@@ -1,0 +1,5 @@
+\babel@toc {portuges}{}
+\contentsline {section}{\numberline {1}Resumo}{1}% 
+\contentsline {section}{\numberline {2}Objetivo}{2}% 
+\contentsline {subsection}{\numberline {2.1}T\IeC {\'e}cnicas e Tecnologias}{2}% 
+\contentsline {section}{Referencia}{4}% 

@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{art1}
+Quang-Vinh Dang and Claudia-Lavinia Ignat.
+\newblock Measuring quality of collaboratively edited documents: The case of
+  wikipedia.
+\newblock {\em IEEE 2nd International Conference on Collaboration and Internet
+  Computing (CIC)}, 2016.
+
+\bibitem{book1}
+DANIEL~GOMES FERRARI and LEANDRO NUNES DE~CASTRO SILVA.
+\newblock {\em Introdu{\c{c}}{\~a}o a minera{\c{c}}{\~a}o de dados}.
+\newblock Editora Saraiva, 2017.
+
+\bibitem{Wiki}
+Wikipedia Foundation.
+\newblock Wikipédia, 2006.
+
+\bibitem{art2}
+Jun Liu and Sudha Ram.
+\newblock Using big data and network analysis to understand wikipedia article
+  quality.
+\newblock {\em Elsevier}, May 2018.
+
+\bibitem{art4}
+Martin Potthast, Benno Stein, and Robert Gerling.
+\newblock Automatic vandalism detection in wikipedia.
+\newblock In {\em European conference on information retrieval}, pages
+  663--668. Springer, 2008.
+
+\bibitem{art3}
+Thomas Steiner.
+\newblock Bots vs. wikipedians, anons vs. logged-ins (redux): A global study of
+  edit activity on wikipedia and wikidata.
+\newblock In {\em Proceedings of The International Symposium on Open
+  Collaboration}, OpenSym ’14, page 1–7, New York, NY, USA, 2014.
+  Association for Computing Machinery.
+
+\bibitem{schema}
+Wikimedia.
+\newblock mediawiki-event-schemas, 2019.
+
+\bibitem{Wikitech}
+Wikitech.
+\newblock Event platform/eventstreams, 2016.
+
+\bibitem{art5}
+Qinyi Wu, Danesh Irani, Calton Pu, and Lakshmish Ramaswamy.
+\newblock Elusive vandalism detection in wikipedia: a text stability-based
+  approach.
+\newblock In {\em Proceedings of the 19th ACM international conference on
+  Information and knowledge management}, pages 1797--1800, 2010.
+
+\end{thebibliography}

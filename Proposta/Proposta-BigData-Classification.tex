@@ -1,0 +1,100 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{multicol,lipsum}
+
+
+\begin{document}
+%\maketitle
+
+\begin{titlepage}
+	\begin{center}
+	
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=8cm]{mackenzie-logo-2.png}
+    \end{figure}
+
+		\Huge{Universidade Presbiteriana Mackenzie}\\
+		\large{Programa de Pós Graduação em Engenharia Elétrica e Computação (PPGEEC)}\\ 
+		\vspace{15pt}
+        \vspace{95pt}
+        \textbf{\LARGE{Influência de bots na Wikipedia}}\\
+		\title{{\large{Título}}}
+		\vspace{3,5cm}
+	\end{center}
+	
+	\begin{flushleft}
+		\begin{tabbing}
+			Aluno: Marcos Cordeiro de Brito Jr\\
+			Professor: Leandro Augusto da Silva\\
+	\end{tabbing}
+ \end{flushleft}
+	\vspace{1cm}
+	
+	\begin{center}
+		\vspace{\fill}
+			 Março\\
+		 2020
+			\end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+\pagenumbering{arabic}
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+\section{Resumo}
+
+Esse trabalho tem como objetivo coletar informações das atualizações de artigos da "WIKIPEDIA"\cite{Wiki} e mensurar a influência de \textit{bots} nos artigos publicados, baseado no estudo \cite{art3}.
+
+Através do uso de um \textit{endpoint} disponibilizado pela "WIKITECH"\cite{Wikitech}, os dados serão coletados e armazenadas para serem analisados.
+
+Com as informações coletadas, serão executados alguns algorítimos de \textit{Machine Learning}, para mostrar a utilização de \textit{bots} na atualização dos artigos da Wikipedia e tentar analisar a influência desse tipo de mecanismo relacionando com os temas dos artigos.
+
+Ao final, a intenção é mostrar o resultado dos algorítimos em \textit{dashboards} e relatórios sobre todo o estudo.
+
+\newpage
+
+\section{Objetivo}
+
+\textit{"A Wikipédia é um projeto de enciclopédia multilíngue de licença livre, baseado na web e escrito de maneira colaborativa."}.
+Essa é a definição dada pelo próprio site\cite{Wiki}.
+
+O surgimento da Wikipedia mudou a forma de pesquisa sobre qualquer assunto. A utilização de livros e coleções de enciclopédias caíram muito após o avanço da internet e o surgimento da enciclopédia online. O grande problema desde seu surgimento é a qualidade das informações.
+
+Por ser uma plataforma colaborativa onde qualquer um pode incluir ou alterar seu conteúdo, a qualidade como fonte segura de informações se torna questionável. Existem mecanismos que tentam mensurar a qualidade dos artigos \cite{art1} inclusive utilizando inteligência artificial \cite{art2}.
+
+Um artificio muito utilizado para verificação e atualização de artigos de forma automática são robôs conhecidos como \textit{bots}. Esses \textit{bots} podem ser usados tanto para benefício de colaboradores da plataforma, como de forma maliciosa por empresas, grupos políticos, \textit{hackers} ou qualquer pessoa que queira postar inverdades sobre algum assunto. Em outras palavras, seria como cometer um ato de vandalísmo com as informações publicadas.
+
+Esse termo foi utilizado em dois outros artigos que também servirão de inspiração para essa implementação\cite{art4}\cite{art5}. Através da utilização de inteligência artificial, os estudos buscaram provar o vandalísmo e alterações maliciosas em artigos da Wikipedia.
+
+O objetivo principal desse artigo é analisar a intenção desses \textit{bots} através dos artigos que estão sendo atualizados.
+Através das informações coletadas, poderá ser analisado a quantidade de artigos alterados pelos \textit{bots}, quais os temas mais alterados, quantidade de atualizações feitas pelos mesmos robôs, se os temas estão relacionados a grupos de grande influência como religião, política ou esporte, quantidade de atualizações comparadas com usuários comuns, países com maior número de alterações, entre outras possibilidades.
+
+\subsection{Técnicas e Tecnologias}
+
+A captura das informações será feita a partir de um \textit{endpoint} disponibilizado pela "WIKITECH"\cite{Wikitech}, utilizando um script desenvolvido em \textbf{Python}. Esse script irá armazenar as informações no banco \textbf{MongoDB}, onde a \textit{collection} principal irá seguir o \textit{schema} dos próprios dados disponibilizados pelo endpoint\cite{schema}.
+
+Para a análise, a intenção é preparar os dados e utilizar de algorítimos de agrupamento\cite{book1} para criar \textit{clustes} com as palavras encontradas nos títulos e conseguir gerar uma análise para identificar os grupos e as intenções das alterações. 
+
+Esse desenvolvimento também será feito utilizando a linguagem \textbf{Python} e bibliotecas auxiliáres, assim como a geração dos \textit{dashboards} e resultados das análises dos dados coletados. Como ferramentas de auxílio desse desenvolvimento, será utilizado o \textbf{Anaconda} e o \textbf{Jupyter Notebook}.
+
+Toda infraestrutura do ambiente será feito na plataforma de \textit{cloud} \textbf{AWS} da \textbf{Amazon}, utilizando como ferramenta de apoio os recursos de \textit{containers} do \textbf{Docker} para provisionar todos recursos necessários de forma rápida.
+
+\newpage
+
+\addcontentsline{toc}{section}{Referencia}
+\bibliographystyle{plain}
+\bibliography{referencia}
+
+\end{document}
+
+
+
