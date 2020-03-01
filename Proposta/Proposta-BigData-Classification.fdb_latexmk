@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex Proposta-BigData-Classification"] 1583097921 "Proposta-BigData-Classification.aux" "Proposta-BigData-Classification.bbl" "Proposta-BigData-Classification" 1583097921
+["bibtex Proposta-BigData-Classification"] 1583097921 "Proposta-BigData-Classification.aux" "Proposta-BigData-Classification.bbl" "Proposta-BigData-Classification" 1583100369
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Proposta-BigData-Classification.aux" 1583097142 834 bfb30f3e19af941aa14e6d8dbab8a529 "pdflatex"
+  "Proposta-BigData-Classification.aux" 1583100369 834 bfb30f3e19af941aa14e6d8dbab8a529 "pdflatex"
   "referencia.bib" 1583097918 3112 3f1e1cf6d1bb4b030cc0674ef7ffb4b0 ""
   (generated)
-  "Proposta-BigData-Classification.bbl"
   "Proposta-BigData-Classification.blg"
-["pdflatex"] 1583097141 "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.tex" "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.pdf" "Proposta-BigData-Classification" 1583097921
-  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.aux" 1583097142 834 bfb30f3e19af941aa14e6d8dbab8a529 ""
-  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.tex" 1583097139 5360 d1903c583245c81b6225ca3f0609690a ""
-  "/dev/null" 1583097866 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Proposta-BigData-Classification.bbl"
+["pdflatex"] 1583100367 "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.tex" "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.pdf" "Proposta-BigData-Classification" 1583100369
+  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.aux" 1583100369 834 bfb30f3e19af941aa14e6d8dbab8a529 ""
+  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.tex" 1583100363 5331 959aec1deaf1a36cddb023a5dba8d359 ""
+  "/dev/null" 1583100327 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -76,15 +76,15 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1581888461 4259636 1766fca02426913a5a2ad3bc8c1d2682 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "Proposta-BigData-Classification.aux" 1583097142 834 bfb30f3e19af941aa14e6d8dbab8a529 "pdflatex"
+  "Proposta-BigData-Classification.aux" 1583100369 834 bfb30f3e19af941aa14e6d8dbab8a529 "pdflatex"
   "Proposta-BigData-Classification.bbl" 1583097921 1708 aa6235c02d436c265d01b7f2ee9fedf2 "bibtex Proposta-BigData-Classification"
-  "Proposta-BigData-Classification.tex" 1583097139 5360 d1903c583245c81b6225ca3f0609690a ""
-  "Proposta-BigData-Classification.toc" 1583097142 253 a09511b679090c35be268a3a81bf4188 "pdflatex"
+  "Proposta-BigData-Classification.tex" 1583100363 5331 959aec1deaf1a36cddb023a5dba8d359 ""
+  "Proposta-BigData-Classification.toc" 1583100369 253 a09511b679090c35be268a3a81bf4188 "pdflatex"
   "mackenzie-logo-2.png" 1582852765 117926 18e8d5ca2e30a30b01a6bb3d5f02848e ""
   (generated)
   "Proposta-BigData-Classification.pdf"
-  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.log"
+  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.pdf"
   "Proposta-BigData-Classification.log"
+  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.log"
   "Proposta-BigData-Classification.aux"
   "Proposta-BigData-Classification.toc"
-  "/Users/Marcos/Desktop/Mestrado/mestrado-topicos-bigdata/Proposta/Proposta-BigData-Classification.pdf"
